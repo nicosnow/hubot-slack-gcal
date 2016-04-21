@@ -2,11 +2,11 @@
 //   Commands for interfacing with google calendar.
 //
 // Commands:
-//   hubot what <room>s are available - finds rooms of type <room> available for the next hour
-//   hubot create an event <event> - creates an event with the given quick add text
-//   hubot reserve me <room> for <event> - creates an event with the given quick add text and invites the given room
-//   hubot invite <usernames> - invite the given usernames to the last event
-//   hubot reply <yes|no|maybe> - reply to the last event
+//   2bender sala <room>s disponible - finds rooms of type <room> available for the next hour
+//   2bender crear evento <event> - creates an event with the given quick add text
+//   2bender reservar <room> para <event> - creates an event with the given quick add text and invites the given room
+//   2bender invitar <usernames> - invite the given usernames to the last event
+//   2bender asistencia <yes|no|maybe> - reply to the last event
 
 module.exports = function(robot) {
   var _ = require('underscore'),
